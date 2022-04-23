@@ -1,0 +1,16 @@
+.page-body {
+  margin: 0;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 241px 1fr;
+  grid-template-columns: 241px 1fr;
+}
+
+.page-header {
+  background-color: #1F2339;
+}
+
+.page-main {
+  background-color: #4d5375;
+}

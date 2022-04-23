@@ -1,0 +1,8 @@
+body {
+  background-color: #1F2339;
+}
+
+.header {
+  display: -ms-grid;
+  display: grid;
+}
