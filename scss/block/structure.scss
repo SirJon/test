@@ -1,0 +1,160 @@
+.structure__title{
+  margin: 27px 0 52px 20px;
+  position: relative;
+  &:nth-last-child(1){
+    margin-bottom: 0;
+  }
+  &::after{
+    content: "";
+    position: absolute;
+    width: 525px;
+    height: 1px;
+    left: -20px;
+    top: 52px;
+
+    background: #151E41;
+  }
+}
+
+.structure__section{
+  margin: 0 0 52px 20px;
+  position: relative; 
+  &::after{
+    content: "";
+    position: absolute;
+    width: 525px;
+    height: 1px;
+    left: -20px;
+    bottom: -25px;
+
+    background: #151E41;
+  }
+  &:nth-last-child(1){
+    margin-bottom: 0;
+    &::after{
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      overflow: hidden;
+      border: 0;
+      clip: rect(0 0 0 0)
+    }
+  } 
+}
+
+.structure__div{
+  position: relative;
+}
+
+.structure__title--h3{
+  font-family: inherit;
+  margin: 0 0 1px 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.structure__title--name{
+  margin: 32px 0 11px;
+}
+
+.structure__button{
+  position: absolute;
+  top: 0;
+  right: 20px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.structure__button--up{
+  &::before{
+    content: url(../svg/up.svg);
+  }
+}
+
+.structure__button--down{
+  &::before{
+    content: url(../svg/down.svg);
+  }
+}
+
+.structure__button--copy{
+  top: 35px;
+  &::before{
+    content: url(../svg/copy.svg);
+  }
+}
+
+.structure__span--status{
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FF8991;
+  margin-bottom: 21px;
+  display: inline-block;
+}
+
+.structure__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.structure__list--person{
+  margin-bottom: 30px;
+}
+
+.structure__list--name{
+  margin-left: 23px;
+}
+
+.structure__item--person{
+  margin-bottom: 2px;
+}
+
+.structure__item--contract{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.structure__item--map,
+.structure__item--people{
+  margin: 0 0 11px 23px;
+  position: relative;
+}
+
+.structure__item--map{
+  &::before{
+    content: url(../svg/map.svg);
+    position: absolute;
+    top: 0;
+    left: -23px;
+  }
+}
+
+.structure__item--people{
+  margin-bottom: 0;
+  &::before{
+    content: url(../svg/people2.svg);
+    position: absolute;
+    top: 0;
+    left: -23px;
+  }
+}
+
+.structure__item--name{
+  margin-bottom: 11px;
+  position: relative;
+  &:nth-last-child(1){
+    margin-bottom: 0;
+  }
+  &::before{
+    content: url(../svg/signature.svg);
+    position: absolute;
+    top: 0;
+    left: -23px;
+  }
+}

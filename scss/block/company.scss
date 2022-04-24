@@ -1,0 +1,33 @@
+.company{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 89px;
+}
+
+.company__section{  
+  background: #383E57;
+  box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 18px;
+  min-width: 340px;
+}
+
+.company__div--wrapper{
+  margin: 0 0 0 28px;
+  padding: 0;
+}
+
+.company__section--structure{
+  width: 525px;
+  height: 857px;
+}
+
+.company__section--documentation{
+  width: 526px;
+  height: 166px;
+  margin-bottom: 26px;
+}
+
+.company__section--form{
+  width: 525px;
+  height: 665px;
+}
