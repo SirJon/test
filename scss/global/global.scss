@@ -3,7 +3,14 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: 241px 1fr;
+  grid-template-columns: 1fr 5fr;
+
+  font-family: "OpenSans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: white;
 }
 
 .page-header{
@@ -12,4 +19,45 @@
 
 .page-main{
   background-color: #4d5375;
+  padding: 0 40px 0 40px;
+  margin: 0;
+}
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+
+.--blue-marker{
+  position: relative;
+  &::before{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(141.65deg, #43E9FF 22.09%, #00ABAB 67.48%), #646981;
+    border-radius: 5px;
+    left: -34px;
+    top: 2px;
+  }
+}
+
+.--violet-marker{
+  position: relative;
+  &::before{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(124.04deg, rgba(182, 26, 255, 0.5) -6.27%, rgba(0, 26, 255, 0.5) 98.36%), #656CFF;
+    border-radius: 5px;
+    left: -34px;
+    top: 2px;
+  }
 }

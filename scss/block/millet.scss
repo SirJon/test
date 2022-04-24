@@ -1,0 +1,61 @@
+.millet{
+  position: relative;
+}
+
+.millet__title{
+  display: inline-block;
+  margin-bottom: 21px;
+}
+
+.millet__title--4{
+  position: relative;
+  margin: 0 0 8px 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+.millet__select{
+  position: absolute;
+  top: 25px;
+  right: 54px;
+
+  background-color: transparent;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #43E8FF;
+
+  border: none;
+  padding: 0;
+
+  cursor: pointer;
+}
+
+.millet__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.millet__list--main{
+  margin-left: 54px;
+}
+
+.millet__list--block{
+  color: #A1A6BE;
+  margin-bottom: 23px;
+}
+
+.millet__item--block{
+  margin-bottom: 1px;
+  &:nth-last-child(1){
+    margin-bottom: 0;
+  }
+}
+
+.millet__svg{
+  position: absolute;
+  top: 47px;
+  right: 72px;
+}

@@ -1,0 +1,41 @@
+.employees__title{
+  margin: 26px 0 23px 17px;
+}
+
+.employees__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.employees__list--main{
+  margin-left: 17px;
+}
+
+.employees__item{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  &::before{
+    content: url(../svg/tel.svg);
+    position: absolute;
+    top: 0;
+    right: 59px;
+    cursor: pointer;
+  }
+  &::after{
+    content: url(../svg/letter.svg);
+    position: absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+  }
+}
+
+.employees__span--post{
+  color: #A1A6BE;
+}
+
+.employees__button{
+  margin: 33px 0 0 17px;
+}

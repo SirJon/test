@@ -1,0 +1,76 @@
+.main-nav{
+  margin: 19px 0 0;
+}
+
+.main-nav__list{
+  list-style: none;
+  margin: 0 10px 0;
+  padding: 0;
+}
+
+.main-nav__list--user{
+  margin-bottom: 89px;
+}
+
+.main-nav__item{
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 13px 0;
+  margin-bottom: 4px;
+  &:nth-last-child(1){
+    margin-bottom: 0;
+  }
+}
+
+.main-nav__item--user{
+  &:hover,
+  &:focus{
+    .main-nav__link{
+      color: #43E8FF;
+    }
+    .main-nav__svg{
+      fill: #43E8FF;
+    }
+  }
+}
+
+.main-nav__item--main{
+  &:hover,
+  &:focus{
+    background: radial-gradient(133.33% 2508.35% at -4.59% -10%, #32E6FF 0%, rgba(0, 255, 209, 0.81) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #43E8FF;
+    border-radius: 10px;
+    .main-nav__link{
+      color: #1F2339;
+    }
+    .main-nav__svg{
+      fill: #1F2339;
+    }
+  }
+}
+
+.main-nav__svg{
+  fill: #ffffff;
+
+  position: absolute;
+  top: 9px;
+  left: 9px;
+}
+
+
+.main-nav__svg--house{
+  top: 11px;
+}
+
+.main-nav__svg--user{
+  top: 23px;
+}
+
+.main-nav__link{
+  margin: 0 0 0 37px;
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+}

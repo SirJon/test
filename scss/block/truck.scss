@@ -1,0 +1,80 @@
+.truck{
+  display: flex;
+}
+
+.truck__title{
+  margin-bottom: 19px;
+  position: relative;
+  &::before{
+    content: url("../svg/star.svg");
+    position: absolute;
+    top: 2px;
+    right: -30px;
+  }
+}
+
+.truck__svg{
+  
+}
+
+.truck__title--h4{
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.truck__span--name{
+  margin: 0 0 19px 20px;
+  display: inline-block;
+}
+
+.truck__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.truck__list--main{
+  margin: 0 0 35px 54px;
+}
+
+.truck__item--block{
+  margin-bottom: 1px;
+  &:nth-last-child(1){
+    margin-bottom: 0;
+  }
+
+  color: #A1A6BE;
+}
+
+.truck__button{
+  margin-left: 20px;
+}
+
+.track__div--svg{
+  margin-left: 20px;
+  position: relative;
+  &::before{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 0px;
+
+    width: 1px;
+    height: 192px;
+
+    background-color: #000000;
+    box-shadow: 142px 0 0 0 #000000,
+                294px 0 0 0 #000000;
+  }
+  &::after{
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: -10px;
+
+    width: 311px;
+    height: 1px;
+
+    background-color: #000000;
+  }
+}
