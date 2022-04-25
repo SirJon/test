@@ -16,19 +16,25 @@
   position: relative;
   display: flex;
   flex-direction: column;
+}
+
+.employees__button{
+  position: absolute;  
+  top: 0;
+  cursor: pointer;
+}
+
+.employees__button--call{
+  right: 59px;
   &::before{
     content: url(../svg/tel.svg);
-    position: absolute;
-    top: 0;
-    right: 59px;
-    cursor: pointer;
   }
-  &::after{
+}
+
+.employees__button--email{
+  right: 20px;
+  &::before{
     content: url(../svg/letter.svg);
-    position: absolute;
-    top: 0;
-    right: 20px;
-    cursor: pointer;
   }
 }
 
@@ -36,6 +42,6 @@
   color: #A1A6BE;
 }
 
-.employees__button{
+.employees__button--show{
   margin: 33px 0 0 17px;
 }

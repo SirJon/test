@@ -33,6 +33,8 @@
 .form__legend{
   padding: 0;
   margin: 0;
+
+  color: #FFFFFF;
 }
 
 .form__textarea{
@@ -50,17 +52,21 @@
   color: #C4C4C4;
 
   resize: none;
+
+  overflow:hidden;
 }
 
 .form__textarea--main{
-  min-height: 56px;
+  height: 56px;
 }
 
 .form__textarea--date{
+  display: inline-block;
+  box-sizing: border-box;
   width: 194px;
   height: 32px;
   margin: 0;
-  padding: 7px 0 6px 20px;
+  padding: 7px 10px 6px 10px;
 }
 
 .form__textarea--place{
@@ -92,6 +98,8 @@
 }
 
 .form__button{
+  max-width: 138px;
+
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;

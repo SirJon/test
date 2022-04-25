@@ -1,8 +1,8 @@
 .page-body{
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 5fr;
+  display: flex;
+  width: 100%;
 
   font-family: "OpenSans", Arial, sans-serif;
   font-style: normal;
@@ -14,12 +14,15 @@
 
 .page-header{
   background-color:#1F2339;
+  max-width: 241px;
+  min-width: 241px;
 }
 
 .page-main{
   background-color: #4d5375;
   padding: 0 40px 0 40px;
   margin: 0;
+  flex-grow: 5;
 }
 
 .visually-hidden{
