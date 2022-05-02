@@ -1,7 +1,12 @@
 .company{
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 89px;
+  margin: 0 auto 89px;
+  width: 100%;
+  max-width: 1080px;
+  @media (max-width: 1425px){
+      width: 600px;
+  }
 }
 
 .company__section{  
@@ -14,11 +19,17 @@
 .company__div--wrapper{
   margin: 0 0 0 28px;
   padding: 0;
+  @media (max-width: 1425px){
+    margin-left: 0;
+  }
 }
 
 .company__section--structure{
   width: 525px;
   height: 857px;
+  @media (max-width: 1425px){
+    margin-bottom: 30px;
+  }
 }
 
 .company__section--documentation{

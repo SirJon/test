@@ -3,8 +3,9 @@
   box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.15);
   border-radius: 18px;
   padding: 17px 8px 0 10px;
-  margin-bottom: 89px;
-  width: 1080px;
+  margin: 0 auto 89px;
+  width: auto;
+  max-width: 1080px;
 }
 
 .table__table{
